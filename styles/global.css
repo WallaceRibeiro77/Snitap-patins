@@ -48,3 +48,8 @@ h2 {
   font-size: var(--text-lg);
   line-height: 12rem;
 }
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
