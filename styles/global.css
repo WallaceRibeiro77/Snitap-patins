@@ -7,7 +7,6 @@
 }
 
 :root {
-  font-size: 62.5%;
   --snitap-sun: #ffcd1e;
   --snitap-sky-mid: #06b6d4;
   --snitap-sky-light: #67e8f9;
@@ -21,17 +20,15 @@
 
   --ff-base: 'Montserrat', sans-serif;
 
-  --text-sm: 1.4rem;
-  --text-base: 1.6rem;
-  --text-lg: 4rem;
-  --text-xl: 6.4rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 2.5rem;
+  --text-xl: 4rem;
 }
-body{
-    font-size: 1.6rem;
-}
+
 html,
 button {
-  font: 500 1.6rem/15rem var(--ff-base);
+  font: 500 1rem/1.5 var(--ff-base);
 }
 
 h1,
@@ -41,15 +38,15 @@ h2 {
 
 h1 {
   font-size: var(--text-xl);
-  line-height: 12.5rem;
+  line-height: 1.25;
 }
 
 h2 {
   font-size: var(--text-lg);
-  line-height: 12rem;
+  line-height: 1.2;
 }
 
-a{
-    color: inherit;
-    text-decoration: none;
+a {
+  color: inherit;
+  text-decoration: none;
 }
